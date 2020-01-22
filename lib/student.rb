@@ -52,12 +52,6 @@ class Student
     # SQL query. We can anticipate that this array will contain
     #cthree elements in this order: the id, name and grade of a
     # student.
-    #new_student = self.new
-    #new_student.id = row[0]
-    #new_student.name = row[1]
-    #new_student.grade = row[2]
-    #new_student
-
     id = row[0]
     name = row[1]
     grade = row[2]
