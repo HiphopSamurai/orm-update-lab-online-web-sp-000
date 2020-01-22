@@ -53,9 +53,9 @@ class Student
     #cthree elements in this order: the id, name and grade of a
     # student.
     new_student = self.new
-    new_student.id = row[0]
-    new_student.name = row[1]
-    new_student.grade = row[2]
+    new_student.id = array[0]
+    new_student.name = array[1]
+    new_student.grade = array[2]
     new_student
   end
 
